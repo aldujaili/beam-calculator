@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "WA Structural House Inspection",
+    "slug": "wa-structural-house-inspection",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "au.engineering.wa.structuralinspection",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Capture defect evidence photos for each checklist item.",
+        "NSPhotoLibraryAddUsageDescription": "Save inspection photos and generated reports.",
+        "NSPhotoLibraryUsageDescription": "Attach existing inspection photos to checklist items."
+      }
+    },
+    "assetBundlePatterns": ["**/*"]
+  }
+}
